@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tituloResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abaixo_peso_titulo"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/dark_green"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/imagemResultado"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/abaixo_peso"
+        android:contentDescription="Resultado IMC" />
+
+    <TextView
+        android:id="@+id/textDetalhesPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/dark_gray" />
+
+    <TextView
+        android:id="@+id/textFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abaixo_peso_msg"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/dark_green" />
+
+    <Button
+        android:id="@+id/btnFechar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_fechar"

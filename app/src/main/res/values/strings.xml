@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Cores -->
+    <color name="dark_green">#006341</color>
+    <color name="light_green">#00A859</color>
+    <color name="dark_gray">#4D4D4D</color>
+    <color name="light_gray">#B3B3B3</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Strings gerais -->
+    <string name="app_name">Calculadora IMC</string>
+
+    <!-- Main Activity -->
+    <string name="btn_calcular_imc">Calculadora IMC</string>
+
+    <!-- Calculo IMC Activity -->
+    <string name="hint_peso">Digite seu peso (kg)</string>
+    <string name="hint_altura">Digite sua altura (m)</string>
+    <string name="btn_calcular">Calcular IMC</string>
+    <string name="btn_limpar">Limpar</string>
+    <string name="btn_fechar">Fechar</string>
+
+    <!-- Categorias IMC -->
+    <string name="abaixo_peso_titulo">Abaixo do Peso</string>
+    <string name="peso_normal_titulo">Peso Normal</string>
+    <string name="sobrepeso_titulo">Sobrepeso</string>
+    <string name="obesidade_1_titulo">Obesidade Grau 1</string>
+    <string name="obesidade_2_titulo">Obesidade Grau 2</string>
+    <string name="obesidade_3_titulo">Obesidade Grau 3</string>
+
+    <!-- Mensagens de Feedback -->
+    <string name="abaixo_peso_msg">Você está abaixo do peso ideal. Consulte um nutricionista para ganhar massa muscular de forma saudável!</string>
+    <string name="peso_normal_msg">Parabéns! Seu peso está na faixa ideal. Continue mantendo hábitos saudáveis!</string>
+    <string name="sobrepeso_msg">Você está com sobrepeso. Pequenas mudanças na dieta e exercícios podem fazer a diferença!</string>
+    <string name="obesidade_1_msg">É hora de cuidar da sua saúde. Busque orientação médica para um plano de emagrecimento.</string>
+    <string name="obesidade_2_msg">Sua saúde precisa de atenção. Consulte um médico para um plano personalizado.</string>
+    <string name="obesidade_3_msg">Recomendamos fortemente uma avaliação médica completa. Sua saúde é importante!</string>
+</resources>
