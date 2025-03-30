@@ -27,7 +27,7 @@ Aplicativo Android para cálculo do Índice de Massa Corporal (IMC) com feedback
 3. Execute em um emulador ou dispositivo Android
 
 ## Autor
-[Seu Nome]
+[Felipe Vallim Soares]
 Curso: Ciência da Computação
 Semestre: 3º
 
